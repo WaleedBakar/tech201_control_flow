@@ -28,5 +28,5 @@ else:
     print("this is not a correct rating, please use universal, pg, 12, 15, 18")
 
 
-# in python the are no "switch statements" or "case statements"
+# in python there are no "switch statements" or "case statements"
 
