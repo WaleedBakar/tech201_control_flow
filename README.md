@@ -3,7 +3,7 @@
 
 # if statements 
 
-``````
+`````` python
 
 # Age ratings
 U = "Universal - Suitable for all ages"
@@ -54,7 +54,7 @@ The code then prints the list of eligible age ratings for the user.
 A for loop is a control flow structure in programming that repeatedly executes a block of code for a specified number of times or until a specific condition is met.
 
 
-````
+```` python
 
 list_1 = [1 , 2, 3, 4, 5]
 
@@ -85,5 +85,16 @@ If the integer is not equal to 3, the code prints "too soon".
 The loop repeats for each integer in the list until all integers have been processed.
 
 
-# While loops
+# While loops:
+While loop in Python is a type of loop that repeatedly executes a block of code as long as a certain condition is met. The loop continues until the condition becomes false. The basic syntax of a while loop is as follows: while condition: followed by an indented block of code to be executed repeatedly. The condition is checked at the beginning of each iteration and if it is True, the loop will run again, if the condition is False, the loop will terminate.
+
+
+`````` python
+ while x < 10:
+    print(f"its working {x}")
+     if x == 4:
+         break
+    x += 1
+ print(x) # X = 4
+``````
 
