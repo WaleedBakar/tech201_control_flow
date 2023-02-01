@@ -32,13 +32,9 @@ dict_data = {1: {"name": "Bronson", "money": "$0.05"}, 2: {"name": "Masha", "mon
 
 # Loopps and if statements
 
-list_1 = [1 , 2, 3, 4, 5]
+total = 0
 
-for num in list_1:
-    if num == 3:
-        print('i found three!')
-    elif num == 3:
-        print('gone too far')
+for i in range(10)
+    total += int(input()"Enter a number: "))
 
-    else:
-        print('too soon')
+print(f"the total of your inputs is: {total}")
